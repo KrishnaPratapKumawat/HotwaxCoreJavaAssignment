@@ -100,9 +100,13 @@ public class EmployeeDetails {
                                     System.out.println(emp);
                                     found = true;
                                 }
+                                 if (found){
+                                     System.out.println("Record found");
+                                     System.exit(0);
+                                 }
                             }
                             if (!found) {
-                                System.out.println("Record Not Found");
+                                System.out.println("Record NOT Found");
                             }
                             System.out.println(".........................................");
                         } else {
